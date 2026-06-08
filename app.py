@@ -3,7 +3,8 @@ import psycopg2
 import os
 
 app = Flask(__name__)
-VERSION = "2.0.0"
+# Modificado para la Actividad 7
+VERSION = "3.0.0"
 
 def obtener_conexion():
     return psycopg2.connect(
